@@ -28,7 +28,7 @@ Initially, I faced a classic computer vision problem: **Overfitting and False Po
 
 My early model (trained on ~200 images) achieved high mAP metrics during training but failed in real-world scenarios. It frequently confused **buildings and excavators** for drones due to high-contrast features.
 
-> ![Demo](datasets\False_Positives.png)
+> ![Demo](datasets/False_Positives.png)
  
 
 ---
@@ -61,7 +61,7 @@ Integrated **ByteTrack** (and experimented with DeepSORT) to handle object occlu
 
 ## 📊 Results & Performance
 
-> ![Demo Result](results\uav_yolo11n_v2\results.png)
+> ![Demo Result](results/uav_yolo11n_v2/results.png)
 
 * **Accuracy:** Achieved **>0.8 mAP50** within the first 10 epochs of retraining.
 * **Robustness:** Successfully eliminated **99% of false positives** on complex backgrounds (buildings/construction sites).
